@@ -28,10 +28,10 @@ class NumerosController extends Controller
 				continue;
 			}
 
-			if (is_numeric($value) {
-				unset($numer[$key]);
-				continue;
-			}
+			// if (is_numeric($value) {
+			// 	unset($numer[$key]);
+			// 	continue;
+			// }
 
 			if ($value < -100) {
 				$errorclass = "warning";
